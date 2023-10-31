@@ -3,6 +3,8 @@ This repository is meant to be a comprehensive guide of the theoretical concepts
 
 I will cover a wide range of topics within the AI field, including the mathematical explanation of generalised practices and more in-depth insights of what is actually occurring. I will also provide guides and methodical ways for practical projects.
 
+Said writings will also be uploaded on my Medium page, so please feel free to take a look over there as well!! :))
+
 # Goals
 
 The goal of this repo is aiding you becoming more knowledgeable about AI as possible. While I cannot assure whether you will become proficient at the subject or not, since it's up to you to put the hard work in, I can only provide useful information you can extensively utilise as either main source or supplementary (I always recommend to have a cross-source learning approach) for your studies or research.  
