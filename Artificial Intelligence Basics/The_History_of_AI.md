@@ -15,3 +15,11 @@ However, that won’t last long. During the 1980s and 1990s, AI suffered of the 
 The current state of AI is often described as weak AI, meaning it can perform tasks that otherwise would need human intelligence for, however, it cannot exhibit human-like understanding or creativity with the same precision and intuition.
 
 Once again, this is likely going to change in the future, since scientists foresee the further developement of AGI (Artificial General Intelligence), which is the ability to perform intellectual tasks just as a human. Other researchers, instead, speculate on something referred as ASI (Artificial SuperIntelligence), which is the condition where machines will surpass by a huge extent human intelligence in all aspects.
+
+# References
+
+Stanford University. (2019, March 5). *Mythical fantasies about artificial life*. Stanford News. https://news.stanford.edu/2019/02/28/ancient-myths-reveal-early-fantasies-artificial-life/.
+
+*Gods and Robots: Myths, Machines, and Ancient Dreams of Technology*. (n.d.). [E-book]. Princeton University Press.
+
+Roser, M. (2023, October 29). *The brief history of artificial intelligence: The world has changed fast – what might be next?* Our World in Data. https://ourworldindata.org/brief-history-of-ai.
