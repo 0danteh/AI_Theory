@@ -13,3 +13,5 @@ From this time on, AI had some lows and highs in regards to the attention at its
 However, that won’t last long. During the 1980s and 1990s, AI suffered of the second “AI Winter”, mainly because of the limitations of expert systems that were not scalable to a larger extent. This is going to change, again, when during the 21st century AI will go through very important breakthroughs once again, being able to: image recognition, self-driving vehicles, game playing, machine translations and so forth.
 
 The current state of AI is often described as weak AI, meaning it can perform tasks that otherwise would need human intelligence for, however, it cannot exhibit human-like understanding or creativity with the same precision and intuition.
+
+Once again, this is likely going to change in the future, since scientists foresee the further developement of AGI (Artificial General Intelligence), which is the ability to perform intellectual tasks just as a human. Other researchers, instead, speculate on something referred as ASI (Artificial SuperIntelligence), which is the condition where machines will surpass by a huge extent human intelligence in all aspects.
