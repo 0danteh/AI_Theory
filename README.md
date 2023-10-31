@@ -7,7 +7,9 @@ Said writings will also be uploaded on my Medium page, so please feel free to ta
 
 # Goals
 
-The goal of this repo is aiding you becoming more knowledgeable about AI as possible. While I cannot assure whether you will become proficient at the subject or not, since it's up to you to put the hard work in, I can only provide useful information you can extensively utilise as either main source or supplementary (I always recommend to have a cross-source learning approach) for your studies or research.  
+The goal of this repo is aiding you becoming more knowledgeable about AI as possible. While I cannot assure whether you will become proficient at the subject or not, since it's up to you to put the hard work in, I can only provide useful information you can extensively utilise as either main source or supplementary (I always recommend to have a cross-source learning approach) for your studies or research.
+
+I will try to be as clear as possible in my writings, so that **anybody**, regardless of their background, can understand and learn from the proposed concepts. 
 
 
 # Use Case
