@@ -20,7 +20,7 @@ You can utilise this repo in different ways:
 2) Learning how to apply said low-level information into real-world problems (you can also check my projects, constituited of detailed comments).
 3) Learning AI from beginner to advanced, building the necessary field-related knowledge on the go.
 
-**N.B**: The articles will be structured this way: Introductionary part (for Beginners and/or those who don't possess the requirements said below but still want to learn more about AI), A small more in-depth explanation (for those individuals who don't have all the requirements filled yet, but on an Intermediate level) and finally the rigorous explanation of the topic at-hand (here, it is expected a strong foundation in the requirements stated below, from the reader).
+**N.B**: The highly technical essays will be structured this way: Introductionary part (for Beginners and/or those who don't possess the requirements said below but still want to learn more about AI), A small more in-depth explanation (for those individuals who don't have all the requirements filled yet, but on an Intermediate level) and finally the rigorous explanation of the topic at-hand (here, it is expected a strong foundation in the requirements stated below, from the reader).
 
 Additionally, keep in mind that many concepts we're going to explore are crossed, meaning that they can be used multiple times throughout the journey. Therefore, I strong advice anybody's interested in reading the whole guides from start to finish to avoid missing any essential part.
 
