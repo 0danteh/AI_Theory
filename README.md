@@ -3,7 +3,7 @@ This repository is meant to be a comprehensive guide of the theoretical concepts
 
 I will cover a wide range of topics within the AI field, including the mathematical explanation of generalised practices and more in-depth insights of what is actually occurring. I will also provide guides and methodical ways for practical projects.
 
-**EXTREMELY IMPORTANT**: if you skip any part of the essay and not read it fully, you will lack of understanding since I re-apply concepts I already explained many times. Therefore, work on your attention span and read every essay fully. Pay the price now and you'll thank yourself later.
+**EXTREMELY IMPORTANT**: if you skip any part of the essay and not read it fully, you will lack of understanding since I re-apply many times the concepts I already explained. Therefore, work on your attention span and read every essay fully. Pay the price now and you'll thank yourself later.
 
 Additionally, the writings will also be uploaded on my Medium page, so please feel free to take a look over there as well!! :))
 
