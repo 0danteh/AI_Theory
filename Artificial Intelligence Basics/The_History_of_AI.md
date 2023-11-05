@@ -16,6 +16,8 @@ The current state of AI is often described as weak AI, meaning it can perform ta
 
 Once again, this is likely going to change in the future, since scientists foresee the further developement of AGI (Artificial General Intelligence), which is the ability to perform intellectual tasks just as a human. Other researchers, instead, speculate on something referred as ASI (Artificial SuperIntelligence), which is the condition where machines will surpass by a huge extent human intelligence in all aspects.
 
+Please, feel free to check: https://medium.com/@dantesteaching/from-myth-to-machine-the-history-of-artificial-intelligence-6ef741c7e3af
+
 # References
 
 Stanford University. (2019, March 5). *Mythical fantasies about artificial life*. Stanford News. https://news.stanford.edu/2019/02/28/ancient-myths-reveal-early-fantasies-artificial-life/.
