@@ -10,6 +10,8 @@ From the advancements of Weak AI, scientists had theorised various profiles for 
 
 Another theoretical type of AI that has been theorised (but way more abstract than the previous one) is: SuperIntelligence. It is the type of AI that can think, reason, learn, make judgments, and possess cognitive abilities that surpass those of human beings. It can potentially achieve any goal and solve any problem that humans cannot. For example, an ASI could invent new technologies, discover new scientific laws, or create new forms of art, by using its own intelligence and imagination. The reason why achieving such model is impossible with today’s equipments is because it would require techniques that go beyond the current machine learning and neural network models, therefore, it still remains just a sci-fi idea.
 
+Please, feel free to check: https://medium.com/@dantesteaching/artificial-intelligence-the-next-human-evolution-8ab35d837f4c
+
 # References
 
 Joshi, N. (2019, June 20). 7 Types Of Artificial Intelligence. *Forbes*. https://www.forbes.com/sites/cognitiveworld/2019/06/19/7-types-of-artificial-intelligence/
