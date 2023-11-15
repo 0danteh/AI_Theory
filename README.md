@@ -31,7 +31,7 @@ Additionally, keep in mind that many concepts we're going to explore are crossed
 In order to get the best off of this educational repo, you'll need to possess certain requirements and skills beforehand:
 
 1) Self-discipline (more a soft-core skill but still of an extreme importance)
-2) Basics of Math (if you have mastered the basics of Algebra, Linear Algebra and Calculus, that can be enough).
+2) Basics of Math (if you have mastered the basics of Algebra, Linear Algebra, Calculus, Probabability and Statistics that can be enough).
 3) Basics of Computer Science.
 
 If you don't have them, **DON'T WORRY**! I will provide educational repo on those matters as well.
