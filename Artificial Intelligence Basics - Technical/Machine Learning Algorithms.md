@@ -57,9 +57,9 @@ Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) have p
 Recurrent Neural Networks address data with a sequential nature (e.g., text, audio):
 - An RNN processes sequences by maintaining a state (memory) that captures information about previous elements in the sequence.
 - Basic computation in a unit of RNN can be formulated as:
-  \[
-  h_t = \text{tanh}(W_{hh} h_{t-1} + W_{xh} x_t + b)
-  \]
+  
+  $$h_t = \text{tanh}(W_{hh} h_{t-1} + W_{xh} x_t + b)$$
+  
   Here, \( W_{hh} \) and \( W_{xh} \) are weight matrices, \( h_t \) is the hidden state at time \( t \), \( x_t \) is the input at time \( t \), and \( b \) is a bias term.
 
 #### Case Studies: Practical Applications
