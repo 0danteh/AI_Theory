@@ -60,6 +60,6 @@ Recurrent Neural Networks address data with a sequential nature (e.g., text, aud
   
   $$h_t = \text{tanh}(W_{hh} h_{t-1} + W_{xh} x_t + b)$$
   
-  Here, \( W_{hh} \) and \( W_{xh} \) are weight matrices, \( h_t \) is the hidden state at time \( t \), \( x_t \) is the input at time \( t \), and \( b \) is a bias term.
+  Here,  $W_{hh}$ and $W_{xh}$ are weight matrices, $h_t$ is the hidden state at time $t$, $x_t$ is the input at time $t$, and $b$ is a bias term.
 
 #### Case Studies: Practical Applications
