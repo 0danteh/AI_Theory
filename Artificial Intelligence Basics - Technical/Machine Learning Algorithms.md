@@ -12,17 +12,17 @@ As machine learning algorithms continue to advance, they also bring forth comple
 
 In conclusion, this essay will summarize the key points discussed and project future directions of this vibrant field of study. The continuous evolution of machine learning holds exciting prospects for further breakthroughs, offering new opportunities for enhancing and perhaps even transforming current methodologies. By understanding these developments, we equip ourselves to both contribute to and critically engage with the future landscape of AI and machine learning. The upcoming sections aim to provide a thorough and critical examination of the recent and significant advancements in machine learning algorithms, setting the stage for how they will continue to impact and reshape our world.
 
-### Section 1: Advances in Supervised Learning
+# Section 1: Advances in Supervised Learning
 
-#### Introduction to Supervised Learning
+### Introduction to Supervised Learning
 
 Supervised learning, a predominant branch of machine learning, involves training a model to map inputs to outputs based on example input-output pairs. This approach hinges on using labeled datasets, where each training sample is paired with an annotation that the model aims to predict. The cardinal goal is to devise a model that generalizes well to unseen data, thereby making predictions or decisions with high accuracy.
 
 Mathematically, supervised learning can be described as learning a function $( f: X \rightarrow Y )$ from labeled training data consisting of pairs $((x_i, y_i))$ where $(x_i \in X)$ and $(y_i \in Y)$. The aim is to minimize some loss function $( L )$ that measures the difference between the predicted value $( f(x) )$ and the actual value $( y )$.
 
-#### Recent Algorithms in Supervised Learning
+### Recent Algorithms in Supervised Learning
 
-##### 1. Gradient Boosting Machines (GBMs)
+#### 1. Gradient Boosting Machines (GBMs)
 
 Gradient Boosting Machines, including popular implementations like XGBoost, LightGBM, and CatBoost, have revolutionized decision-making tasks. GBM is an ensemble technique that builds models sequentially, each new model correcting errors made by the previous ones.
 
