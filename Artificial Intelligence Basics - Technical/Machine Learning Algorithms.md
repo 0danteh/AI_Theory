@@ -43,14 +43,14 @@ The general algorithm involves:
   
   where $\eta$ is the learning rate and $h_t(x)$ is the output of the base learner.
   
-- The output for a new input \( x \) is given by:
+- The output for a new input $x$ is given by:
 
   $$F(x) = F_T(x) = F_0(x) + \sum_{t=1}^T \eta \cdot h_t(x)$$
 
 
-##### 2. Deep Learning Techniques: CNNs and RNNs
+### 2. Deep Learning Techniques: CNNs and RNNs
 
-Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) have profoundly impacted fields like image and speech recognition. CNNs are particularly well-suited for processing grid-like data (e.g., images), using convolutional layers to capture spatial hierarchies:
+Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) have profoundly impacted fields like image and speech recognition. CNNs are particularly well-suited for processing grid-like data (e.g., images), using convolutional layers to capture spatial hierarchies (it will be studied later in more depth):
 - Layers in a CNN may include convolutional layers, activation functions (like ReLU), pooling layers, and fully connected layers.
 - The convolutional layers apply a convolution operation to the input, capturing patterns via filters.
 
