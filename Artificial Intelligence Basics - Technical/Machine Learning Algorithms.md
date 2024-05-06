@@ -31,22 +31,22 @@ The general algorithm involves:
   
   $$F_0(x) = \arg \min_\gamma \sum_{i=1}^N L(y_i, \gamma)$$
 
-- For each subsequent model $( t = 1 ) \to ( T )$:
+- For each subsequent model $t = 1 \to T$:
   - Computing the pseudo-residuals:
-    
-    $$ r_{it} = -\left[ \frac{\partial L(y_i, F(x_i))}{\partial F(x_i)} \right]_{F=F_{t-1}} $$
+
+    $$r_{it} = -\frac{\partial L(y_i, F(x_i))}{\partial F(x_i)} \Biggr|_{F=F_{t-1}}$$
   
   - Fitting a base learner (e.g., decision tree) to these residuals.
   - Updating the model:
     
-    $$ F_t(x) = F_{t-1}(x) + \eta \cdot h_t(x) $$
+    $$F_t(x) = F_{t-1}(x) + \eta \cdot h_t(x)$$
   
-  where \( \eta \) is the learning rate and \( h_t(x) \) is the output of the base learner.
+  where $\eta$ is the learning rate and $h_t(x)$ is the output of the base learner.
   
 - The output for a new input \( x \) is given by:
-  \[
-  F(x) = F_T(x) = F_0(x) + \sum_{t=1}^T \eta \cdot h_t(x)
-  \]
+
+  $$F(x) = F_T(x) = F_0(x) + \sum_{t=1}^T \eta \cdot h_t(x)$$
+
 
 ##### 2. Deep Learning Techniques: CNNs and RNNs
 
