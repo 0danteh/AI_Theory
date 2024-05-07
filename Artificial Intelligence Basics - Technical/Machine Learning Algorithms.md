@@ -64,6 +64,6 @@ Recurrent Neural Networks address data with a sequential nature (e.g., text, aud
 
 ### 3. Support Vector Machines (SVMs)
 
-
+Support Vector Machines (SVMs) are a set of supervised learning methods used for classification, regression, and outliers detection. The fundamental idea behind SVM is to find a hyperplane in an N-dimensional space that distinctly classifies the data points.
 
 
