@@ -20,9 +20,7 @@ Supervised learning, a predominant branch of machine learning, involves training
 
 Mathematically, supervised learning can be described as learning a function $f: X \rightarrow Y$ from labeled training data consisting of pairs $(x_i, y_i)$ where $x_i \in X$ and $y_i \in Y$. The aim is to minimize some loss function $L$ that measures the difference between the predicted value $f(x)$ and the actual value $y$.
 
-### Recent Algorithms in Supervised Learning
-
-#### 1. Gradient Boosting Machines (GBMs)
+### 1. Gradient Boosting Machines (GBMs)
 
 Gradient Boosting Machines, including popular implementations like XGBoost, LightGBM, and CatBoost, have revolutionized decision-making tasks. GBM is an ensemble technique that builds models sequentially, each new model correcting errors made by the previous ones.
 
