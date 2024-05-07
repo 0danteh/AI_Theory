@@ -81,3 +81,5 @@ One powerful feature of SVMs is the use of kernels, which allows the algorithm t
 - Linear: $K(\mathbf{x}_i, \mathbf{x}_j) = \mathbf{x}_i \cdot \mathbf{x}_j$
 - Polynomial: $K(\mathbf{x}_i, \mathbf{x}_j) = (\gamma \mathbf{x}_i \cdot \mathbf{x}_j + r)^d$, parameters $\gamma, r$, and $d$
 - Radial Basis Function (RBF): $K(\mathbf{x}_i, \mathbf{x}_j) = \exp(-\gamma \|\mathbf{x}_i - \mathbf{x}_j\|^2)$, parameter $\gamma$
+
+For solving the constrained optimization problem, methods such as Sequential Minimal Optimization (SMO) are used to efficiently find the optimal weights \( \mathbf{w} \) and bias \( b \). The solution involves only a subset of the training points (the support vectors), which makes the decision function depend only on the inner products of the input vectors.
