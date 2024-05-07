@@ -34,7 +34,7 @@ The general algorithm involves:
 - For each subsequent model $t = 1 \to T$:
   - Computing the pseudo-residuals:
 
-    $$r_{it} = -\frac{\partial L(y_i, F(x_i))}{\partial F(x_i)} \Biggr|_{F=F_{t-1}}$$
+    $$r_{it} = -\frac{\partial L(y_i, F(x_i))}{\partial F(x_i)} \Biggr|\_{F=F_{t-1}}$$
   
   - Fitting a base learner (e.g., decision tree) to these residuals.
   - Updating the model:
