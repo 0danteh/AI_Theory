@@ -76,4 +76,8 @@ $\min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2$
 subject to the constraint that all data points are correctly classified, i.e.,
 $y_i (\mathbf{w} \cdot \mathbf{x}_i + b) \geq 1, \quad \text{for all } i$.
 
+One powerful feature of SVMs is the use of kernels, which allows the algorithm to fit the maximum-margin hyperplane in a transformed feature space. This significantly increases the flexibility and power of SVMs in handling nonlinear classification. A kernel function transforms the training data into a higher dimensional space where a linear separator might be more effective or even perfect for separation. Common kernels include:
 
+- Linear: $K(\mathbf{x}_i, \mathbf{x}_j) = \mathbf{x}_i \cdot \mathbf{x}_j$
+- Polynomial: $K(\mathbf{x}_i, \mathbf{x}_j) = (\gamma \mathbf{x}_i \cdot \mathbf{x}_j + r)^d$, parameters $\gamma, r$, and $d$
+- Radial Basis Function (RBF): $K(\mathbf{x}_i, \mathbf{x}_j) = \exp(-\gamma \|\mathbf{x}_i - \mathbf{x}_j\|^2)$, parameter $\gamma$
