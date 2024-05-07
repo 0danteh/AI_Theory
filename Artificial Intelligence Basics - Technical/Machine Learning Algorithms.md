@@ -71,3 +71,11 @@ To understand SVMs, let us consider a binary classification problem. Given a lab
 The equation of the hyperplane can be written as:
 $$\mathbf{w} \cdot \mathbf{x} + b = 0$$
 where $\mathbf{w}$ is the normal vector to the hyperplane and $b$ is the bias.
+
+The goal is to maximize the margin between the hyperplane and the nearest points from each class, which are termed support vectors. This margin is given by the distance $\frac{2}{\|\mathbf{w}\|}$. Thus, the problem can be formulated as:
+
+$\min_{\mathbf{w}, b} \frac{1}{2} \|\mathbf{w}\|^2$
+subject to the constraint that all data points are correctly classified, i.e.,
+$y_i (\mathbf{w} \cdot \mathbf{x}_i + b) \geq 1, \quad \text{for all } i$.
+
+
