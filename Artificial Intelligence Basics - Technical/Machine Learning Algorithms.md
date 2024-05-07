@@ -18,7 +18,7 @@ In conclusion, this essay will summarize the key points discussed and project fu
 
 Supervised learning, a predominant branch of machine learning, involves training a model to map inputs to outputs based on example input-output pairs. This approach hinges on using labeled datasets, where each training sample is paired with an annotation that the model aims to predict. The cardinal goal is to devise a model that generalizes well to unseen data, thereby making predictions or decisions with high accuracy.
 
-Mathematically, supervised learning can be described as learning a function $( f: X \rightarrow Y )$ from labeled training data consisting of pairs $((x_i, y_i))$ where $(x_i \in X)$ and $(y_i \in Y)$. The aim is to minimize some loss function $( L )$ that measures the difference between the predicted value $( f(x) )$ and the actual value $( y )$.
+Mathematically, supervised learning can be described as learning a function $f: X \rightarrow Y$ from labeled training data consisting of pairs $(x_i, y_i)$ where $x_i \in X$ and $y_i \in Y$. The aim is to minimize some loss function $L$ that measures the difference between the predicted value $f(x)$ and the actual value $y$.
 
 ### Recent Algorithms in Supervised Learning
 
@@ -62,4 +62,8 @@ Recurrent Neural Networks address data with a sequential nature (e.g., text, aud
   
   Here,  $W_{hh}$ and $W_{xh}$ are weight matrices, $h_t$ is the hidden state at time $t$, $x_t$ is the input at time $t$, and $b$ is a bias term.
 
-#### Case Studies: Practical Applications
+### 3. Support Vector Machines (SVMs)
+
+
+
+
