@@ -66,4 +66,8 @@ Recurrent Neural Networks address data with a sequential nature (e.g., text, aud
 
 Support Vector Machines (SVMs) are a set of supervised learning methods used for classification, regression, and outliers detection. The fundamental idea behind SVM is to find a hyperplane in an N-dimensional space that distinctly classifies the data points.
 
+To understand SVMs, let us consider a binary classification problem. Given a labeled training dataset \( \{(\mathbf{x}_i, y_i)\}_{i=1}^m \) where \( \mathbf{x}_i \in \mathbb{R}^n \) and \( y_i \in \{-1,1\} \), SVMs aim at finding the optimal separating hyperplane that maximizes the margin between two classes.
 
+The equation of the hyperplane can be written as:
+$$\mathbf{w} \cdot \mathbf{x} + b = 0$$
+where $\mathbf{w}$ is the normal vector to the hyperplane and $b$ is the bias.
