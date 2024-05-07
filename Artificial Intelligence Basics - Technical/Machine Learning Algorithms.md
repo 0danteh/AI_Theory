@@ -90,3 +90,5 @@ SVMs are particularly well-appreciated for their effectiveness in high-dimension
 - Text categorization
 - Bioinformatics (e.g., classification of proteins, gene classification)
 - Handwriting recognition
+
+### 
