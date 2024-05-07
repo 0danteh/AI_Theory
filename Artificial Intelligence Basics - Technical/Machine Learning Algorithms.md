@@ -83,3 +83,10 @@ One powerful feature of SVMs is the use of kernels, which allows the algorithm t
 - Radial Basis Function (RBF): $K(\mathbf{x}_i, \mathbf{x}_j) = \exp(-\gamma \|\mathbf{x}_i - \mathbf{x}_j\|^2)$, parameter $\gamma$
 
 For solving the constrained optimization problem, methods such as Sequential Minimal Optimization (SMO) are used to efficiently find the optimal weights \( \mathbf{w} \) and bias \( b \). The solution involves only a subset of the training points (the support vectors), which makes the decision function depend only on the inner products of the input vectors.
+
+SVMs are particularly well-appreciated for their effectiveness in high-dimensional spaces and when the number of dimensions exceeds the number of samples. They are widely used in applications such as:
+
+- Image recognition and classification
+- Text categorization
+- Bioinformatics (e.g., classification of proteins, gene classification)
+- Handwriting recognition
