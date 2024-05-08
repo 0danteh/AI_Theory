@@ -105,6 +105,12 @@ To build a Decision Tree, recursively split the data set starting from the root,
 
   where $p_i$ is the probability of an item with label $i$ being chosen.
 
-  - **Entropy:** Another measure for classification, it quantifies the amount of uncertainty (or randomness) in the data set. Entropy is defined as:
+- **Entropy:** Another measure for classification, it quantifies the amount of uncertainty (or randomness) in the data set. Entropy is defined as:
   
   $$H(T) = - \sum_{i=1}^n p_i \log_2(p_i)$$
+
+- **Mean Squared Error (MSE):** Used for regression tasks. It measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value:
+  
+  $$MSE = \frac{1}{n} \sum_{i=1}^n (Y_i - \hat{Y}_i)^2$$
+
+  where \( Y_i \) is the true value and $\hat{Y}_i$ is the predicted value by the tree.
