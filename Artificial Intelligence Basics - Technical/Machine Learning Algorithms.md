@@ -104,3 +104,7 @@ To build a Decision Tree, recursively split the data set starting from the root,
   $$I_G(f) = 1 - \sum_{i=1}^n p_i^2$$
 
   where $p_i$ is the probability of an item with label $i$ being chosen.
+
+  - **Entropy:** Another measure for classification, it quantifies the amount of uncertainty (or randomness) in the data set. Entropy is defined as:
+  
+  $$H(T) = - \sum_{i=1}^n p_i \log_2(p_i)$$
