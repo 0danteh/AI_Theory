@@ -137,3 +137,7 @@ For regression:
 - The final model output is the average of these values.
 
 Decision Trees and Random Forests are versatile algorithms used across various sectors like finance for fraud detection, health sector for patient diagnosis, and commerce for customer behavior analysis. Their interpretability (especially Decision Trees) and robustness to outliers and non-linear data (attributed more to Random Forests) make them favorable choices among other machine learning algorithms
+
+## Regularization
+
+Regularization is a fundamental technique in statistics and machine learning to prevent overfitting, where a model performs well on training data but poorly on unseen test data. By adding a penalty or constraint to the learning algorithm, regularization can enhance the generalization ability of the model.
