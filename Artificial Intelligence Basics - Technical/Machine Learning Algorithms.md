@@ -99,4 +99,8 @@ A Decision Tree is constructed from a root node and splits into branches and int
 
 To build a Decision Tree, recursively split the data set starting from the root, choosing the splits that maximally decrease a certain impurity measure. The most common measures are:
 
+- **Gini Impurity:** Used for classification, it measures how often a randomly chosen element would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. The Gini impurity of a set is calculated using:
+  
+  $$I_G(f) = 1 - \sum_{i=1}^n p_i^2$$
 
+  where $p_i$ is the probability of an item with label $i$ being chosen.
