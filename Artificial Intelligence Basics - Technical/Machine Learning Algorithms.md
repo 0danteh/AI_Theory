@@ -146,4 +146,5 @@ Lasso, or Least Absolute Shrinkage and Selection Operator, adds a penalty equal 
 
 $$\text{Minimize} \left\{ \frac{1}{2n} \| y - X \beta \|^2 + \lambda \|\beta\|_1 \right\}$$
 
+Here, $\lambda$ is a tuning parameter that controls the strength of the penalty; $\beta$ represents the coefficient vector, $X$ is the feature matrix, $y$ is the vector of output variables, and $n$ is the number of data points. The term $\|\beta\|_1$ is the L1 norm of the coefficient vector.
 
