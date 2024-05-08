@@ -95,4 +95,8 @@ SVMs are particularly well-appreciated for their effectiveness in high-dimension
 
 Decision Trees are a supervised learning method used for classification and regression tasks. The goal of a Decision Tree is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.
 
+A Decision Tree is constructed from a root node and splits into branches and internal nodes, each representing a decision based on one of the input features. The leaves of the tree represent the outcome (output class for classification, continuous value for regression).
+
+To build a Decision Tree, recursively split the data set starting from the root, choosing the splits that maximally decrease a certain impurity measure. The most common measures are:
+
 
