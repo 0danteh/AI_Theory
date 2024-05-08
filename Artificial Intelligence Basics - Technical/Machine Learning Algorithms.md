@@ -114,3 +114,26 @@ To build a Decision Tree, recursively split the data set starting from the root,
   $$MSE = \frac{1}{n} \sum_{i=1}^n (Y_i - \hat{Y}_i)^2$$
 
   where \( Y_i \) is the true value and $\hat{Y}_i$ is the predicted value by the tree.
+
+The split for each node is chosen based on the feature and threshold that result in the greatest reduction in impurity or error after the split. Algorithms like CART (Classification and Regression Trees) will evaluate every possible split on every feature.
+
+Random Forests expand upon the concept of Decision Trees, addressing their main limitation: overfitting to the training dataset. This is achieved by creating an ensemble of Decision Trees where each tree is built from a bootstrap sample of the data and using random subsets of features for each split.
+
+Random Forests apply the bootstrapping technique:
+1. A bootstrap sample: Randomly select $N$ samples from the training data with replacement.
+2. Construct a Decision Tree using the bootstrap sample. For each split, rather than searching all features, a random subset of $m$ features is considered (where $m \leq \text{total features}$)).
+3. Repeat steps 1 and 2 multiple times to create an ensemble of trees.
+
+Random Forests inherently perform feature importance:
+- Features consistently used at the top of trees (near the root) affect a larger portion of data and are deemed more important.
+- By averaging the reduction in impurity over all trees in the forest for each feature, one can rank the features' importance.
+
+For classification:
+- Each tree in the forest makes a vote for the class.
+- The class with the most votes becomes the model’s prediction.
+
+For regression:
+- Each tree in the forest predicts a continuous value.
+- The final model output is the average of these values.
+
+Decision Trees and Random Forests are versatile algorithms used across various sectors like finance for fraud detection, health sector for patient diagnosis, and commerce for customer behavior analysis. Their interpretability (especially Decision Trees) and robustness to outliers and non-linear data (attributed more to Random Forests) make them favorable choices among other machine learning algorithms
