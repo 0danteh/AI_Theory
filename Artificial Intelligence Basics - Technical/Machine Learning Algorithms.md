@@ -160,4 +160,14 @@ $$\text{Minimize} \left\{ \frac{1}{2n} \| y - X \beta \|^2 + \lambda_1 \|\beta\|
 
 where $\lambda_1$ and $\lambda_2$ control the L1 and L2 penalties, respectively.
 
+The key concept underlying regularization is introducing a penalty against complexity (measured by the magnitude of the coefficients of the model) to the loss function that the model aims to minimize. This penalty term encourages simpler models during training. Typically, a simpler model is less likely to overfit the data, which is the primary goal of using regularization. 
 
+- **Lasso** is predominantly used when we are dealing with high-dimensionality data and when feature selection is crucial since it can zero out coefficients.
+- **Ridge** is suited for scenarios where multicollinearity is present among variables and when all features are expected to be relevant.
+- **Elastic Net** is preferred when there are correlations among features and when you require the benefits of both Ridge and Lasso.
+
+Implementing regularization in machine learning involves selecting appropriate values for the regularization parameters, $\lambda$ for Lasso and Ridge and $\lambda_1$ and $\lambda_2$ for Elastic Net. This is usually performed using techniques such as cross-validation, where the model's performance is evaluated on unseen data for different values of these parameters to find the one that minimizes prediction error.
+
+In neural networks, in addition to L1 and L2 regularization, dropout is a widely used regularization technique. During training, dropout randomly omits a fraction of features at each iteration, which helps in preventing the network from becoming too dependent on any one neuron and promotes better generalization.
+
+Regularization techniques are critical for enhancing the model's ability to generalize unseen datasets. By applying penalties like L1, L2, and dropout, or a combination of them, data scientists can manage overfitting efficiently and achieve more reliable predictions in diverse practical scenarios across industries.
