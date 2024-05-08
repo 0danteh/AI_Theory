@@ -148,3 +148,13 @@ $$\text{Minimize} \left\{ \frac{1}{2n} \| y - X \beta \|^2 + \lambda \|\beta\|_1
 
 Here, $\lambda$ is a tuning parameter that controls the strength of the penalty; $\beta$ represents the coefficient vector, $X$ is the feature matrix, $y$ is the vector of output variables, and $n$ is the number of data points. The term $\|\beta\|_1$ is the L1 norm of the coefficient vector.
 
+Ridge regression adds a penalty equal to the square of the magnitude of coefficients. This technique deals better with multicollinearity and does not reduce coefficients to zero but rather shrinks them. The function minimized in Ridge is:
+
+$$\text{Minimize} \left\{ \frac{1}{2n} \| y - X \beta \|^2 + \lambda \|\beta\|_2^2 \right\}$$
+
+Here, $\lambda$  is the penalty term and $\|\beta\|_2^2$ denotes the squared L2 norm of the coefficients, which prevents them from reaching large values.
+
+Elastic Net combines the penalties of Lasso and Ridge. This method overcomes some of the limitations of Lasso concerning model selection when multiple features are correlated. Elastic Net minimization function is:
+
+$$\text{Minimize} \left\{ \frac{1}{2n} \| y - X \beta \|^2 + \lambda_1 \|\beta\|_1 + \lambda_2 \|\beta\|_2^2 \right\}$$
+
