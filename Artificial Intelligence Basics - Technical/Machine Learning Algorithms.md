@@ -91,4 +91,8 @@ SVMs are particularly well-appreciated for their effectiveness in high-dimension
 - Bioinformatics (e.g., classification of proteins, gene classification)
 - Handwriting recognition
 
-### 
+### 5. Decision Trees & Random Forests
+
+Decision Trees are a supervised learning method used for classification and regression tasks. The goal of a Decision Tree is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.
+
+
