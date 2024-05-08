@@ -158,3 +158,6 @@ Elastic Net combines the penalties of Lasso and Ridge. This method overcomes som
 
 $$\text{Minimize} \left\{ \frac{1}{2n} \| y - X \beta \|^2 + \lambda_1 \|\beta\|_1 + \lambda_2 \|\beta\|_2^2 \right\}$$
 
+where $\lambda_1$ and $\lambda_2$ control the L1 and L2 penalties, respectively.
+
+
