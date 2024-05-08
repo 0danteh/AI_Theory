@@ -1,9 +1,10 @@
 
 <p align="center">
-  <img src="https://github.com/dante-tech/AI_Theory/assets/148709693/7a5d9497-0128-441c-b2a3-b6d3d7dba743" alt="animated" />
+  <img src="https://github.com/dante-tech/AI_Theory/assets/148709693/67b79e3f-4ecd-41c0-b95e-b09105410326" alt="animated" />
 </p>
 
-This repository is meant to be a comprehensive guide of the theoretical concepts of Artificial Intelligence. 
+This repository is meant to be a comprehensive guide of the theoretical concepts of Artificial Intelligence.
+
 
 I will cover a wide range of topics within the AI field, including the mathematical explanation of generalised practices and more in-depth insights of what is actually occurring. I will also provide guides and methodical ways for practical projects.
 
