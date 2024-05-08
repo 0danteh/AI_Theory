@@ -141,3 +141,9 @@ Decision Trees and Random Forests are versatile algorithms used across various s
 ## Regularization
 
 Regularization is a fundamental technique in statistics and machine learning to prevent overfitting, where a model performs well on training data but poorly on unseen test data. By adding a penalty or constraint to the learning algorithm, regularization can enhance the generalization ability of the model.
+
+Lasso, or Least Absolute Shrinkage and Selection Operator, adds a penalty equal to the absolute value of the magnitude of coefficients. This can yield sparse models where some coefficients become exactly zero. The function minimized in Lasso is:
+
+$$\text{Minimize} \left\{ \frac{1}{2n} \| y - X \beta \|^2 + \lambda \|\beta\|_1 \right\}$$
+
+
