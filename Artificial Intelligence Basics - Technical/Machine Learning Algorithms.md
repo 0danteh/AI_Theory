@@ -113,7 +113,7 @@ To build a Decision Tree, recursively split the data set starting from the root,
   
   $$MSE = \frac{1}{n} \sum_{i=1}^n (Y_i - \hat{Y}_i)^2$$
 
-  where \( Y_i \) is the true value and $\hat{Y}_i$ is the predicted value by the tree.
+  where $Y_i$ is the true value and $\hat{Y}_i$ is the predicted value by the tree.
 
 The split for each node is chosen based on the feature and threshold that result in the greatest reduction in impurity or error after the split. Algorithms like CART (Classification and Regression Trees) will evaluate every possible split on every feature.
 
